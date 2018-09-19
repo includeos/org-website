@@ -1,0 +1,125 @@
+//General styles (ex: link styles, button styles, etc. )
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 3rem;
+}
+
+body.front {
+  background: linear-gradient(rgba(0, 79, 108, .9), rgba(0, 38, 51, .9)), url("../img/background.jpg") no-repeat top;
+  background-size: cover;
+}
+
+body, html {
+  ::selection {
+    background: $black;
+    color: $white;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.container {
+  min-height: 100%;
+
+  &.no-scroll {
+    overflow-x: hidden;
+    position: fixed;
+  }
+}
+
+section {
+  padding: $global-padding;
+}
+
+h1, h2, h3, h4 {
+  font-weight: $global-weight-bold;
+}
+//Link Styles
+a {
+  color: $black;
+  position: relative;
+
+  &:hover {
+    color: $black;
+  }
+
+  &.white {
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  //Makes right arrow (">") after link
+  &.right-arrow:after {
+    content: ">";
+    position: relative;
+    top: 1px;
+    left: 6px;
+  }
+}
+//Button Styles
+.button {
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.hollow.button {
+  &.primary {
+    border: 2px solid $white;
+
+    &:focus, &:hover {
+      border-color: $white;
+      color: $black;
+      background: $white;
+    }
+  }
+
+  &.secondary {
+    border: 2px solid $black;
+
+    &:focus, &:hover {
+      border-color: $black;
+      color: $white;
+      background: $black;
+    }
+  }
+}
+
+span.tags {
+  border: 1px solid rgba(214, 214, 214, .7);
+  border-radius: $button-radius;
+  font-size: .9rem;
+  color: lighten($black, 20);
+  padding: $global-padding/2 $global-padding ;
+  margin: 0 .4rem 0 0;
+  line-height: 3rem;
+
+  &:hover {
+    background: rgba(214, 214, 214, .2);
+    color: $black;
+  }
+}
+
+pre {
+   margin: 1rem 0 2rem 0;
+   box-shadow: 0 8px 0 rgba(0,0,0,1), 0 0 0 rgba(0,0,0,0.1);
+}
+
+code.hljs {
+   padding: 1.5rem;
+   border: none;
+   font-size: .9rem;
+}
+
+p {
+   margin-bottom: .5rem;
+}

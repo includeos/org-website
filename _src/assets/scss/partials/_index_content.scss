@@ -1,0 +1,109 @@
+//Top section (aka the blue section)
+
+section.top {
+  position: relative;
+
+  .button-group {
+    margin: $global-margin 0 ($global-margin*8) $global-margin;
+
+    .button {
+      color: $white;
+      border-color: $white;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h1, h2, p {
+    color: $white;
+  }
+
+  .list {
+    .row {
+      padding-bottom: $global-padding;
+      padding-left: 3rem;
+
+      .wrapper {
+        border-radius: 50%;
+        height: 58px;
+        width: 58px;
+        padding: 2px;
+
+        img {
+          padding-top: 8px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 38px;
+        }
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+//Middle section (aka the yellow section)
+section.middle {
+  background: linear-gradient(rgba(243, 200, 85, 1), rgba(252, 231, 108, 1));
+
+  color: $black;
+  padding: 2rem 0 4rem 0;
+
+  .squirrel {
+    max-width: 60%;
+    margin: 3rem 0;
+    float: right;
+  }
+
+  a {
+    text-decoration: underline;
+
+    &.button {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  @include breakpoint(small only) {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+//Last section (where you can brag)
+section.last {
+  background-color: lighten($black, 2);
+  color: $white;
+  padding: $global-padding 0 $global-padding*3 0 ;
+
+  img {
+     margin: 1rem 0;
+      max-width: 150px;
+      max-height: 90px;
+      height: auto;
+      width: auto;
+  }
+  a {
+    color: $blue;
+    text-decoration: underline;
+  }
+}
+
+
+
+.last, .middle, .top {
+  h2 {
+    margin: $global-padding 0;
+  }
+
+  a:hover {
+    color: lighten($black, 20);
+  }
+}

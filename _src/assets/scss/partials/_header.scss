@@ -1,0 +1,101 @@
+header {
+
+  &.normal {
+   background: linear-gradient(rgba(0, 79, 108, .9), rgba(0, 79, 108, 1));
+  }
+
+  .title-bar {
+    width: 100%;
+    padding: 1.7rem;
+
+    .title-bar-right {
+      padding-top: 1.05rem;
+    }
+  }
+
+  .logo {
+    max-width: 15rem;
+  }
+
+  &.medium-up-header {
+    padding: ($global-padding*2) $global-padding;
+    @include breakpoint(large) {
+      padding: ($global-padding*3) $global-padding;
+    }
+  }
+
+  .menu {
+
+    a {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: rgba($white, .5);
+
+      &.active, &:hover {
+        color: $white;
+
+        &:after{
+          content: "";
+          position: absolute;
+          border: 2px solid $white;
+          left: 0;
+          right: auto;
+          width: 2rem;
+          bottom: -11px;
+          border-radius: 2px;
+        }
+      }
+
+      &:not(:last-child) {
+        padding-right: $global-padding*2;
+      }
+    }
+  }
+}
+
+// Burger menu on small screens
+#menu-button, #menu-button-close {
+  cursor: pointer;
+
+  .burger-icon {
+    @include burger(25px, 3px, 5px, $white);
+  }
+
+  &.is-active {
+    .burger-icon {
+      @include burger-to-cross;
+    }
+  }
+}
+
+#menu-button-close {
+  position: relative;
+  top: 2.7rem;
+  right: 1.7rem;
+}
+
+.overlay-menu {
+  background-color: rgba(0,0,0,.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  z-index: 1;
+  display: none;
+
+  .overlay-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+    a {
+      margin: -4px;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
