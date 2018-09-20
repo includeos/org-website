@@ -18,10 +18,11 @@ At the moment our solution for RHEL 7 is to deploy the whole build environment i
 Our goal will be to compile and boot _**a simple C++ program**_:
 
 ```
- #include <os>
+#include <os>
 
 int main() {
- printf("Finding IncludeOS on RHEL \n");
+ printf("       Congratulations!\n \
+        You are now running IncludeOS !\n");
 }
 
 ```
