@@ -9,8 +9,8 @@
       <p>IncludeOS applications boot in tens of milliseconds and require only a few megabytes of disk and memory. </p>
       <div class="row">
         <div class="stacked-for-small button-group">
-          <a class="primary hollow button" href="https://github.com/hioa-cs/IncludeOS">VIEW ON GITHUB</a>          
-          <a class="primary hollow button" href="https://gitter.im/hioa-cs/IncludeOS">CHAT ON GITTER</a>          
+          <a class="primary hollow button" href="https://github.com/hioa-cs/IncludeOS">VIEW ON GITHUB</a>
+          <a class="primary hollow button" href="https://goo.gl/NXBVsc">CHAT ON SLACK</a>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@ void Service::start()
   // Get the IP stack thats already been automatically configured
   auto&amp; inet = net::Super_stack::get&lt;net::IP4&gt;(0);
   // Setup a TCP echo server on port 7 (echo port)
-  auto&amp; server = inet.tcp().listen(7); 
+  auto&amp; server = inet.tcp().listen(7);
 
   server.on_connect([] (auto conn) {
     // Log incomming connections on the console:
@@ -157,5 +157,3 @@ The network configuration of the virtual machine can reside in a JSON file, name
   </div>
 -->
 </section>
-
-

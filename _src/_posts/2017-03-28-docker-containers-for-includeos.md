@@ -64,4 +64,4 @@ On macOS, the `boot -g` option to add a GRUB bootloader is not available. Instea
 $ docker run --rm --privileged -v $(dirname $PWD):/service includeos/includeos-grubify:0.10.0.1 /service/build/<image_name>
 ```
 
-We are *very* interested in finding out that kind of workflows users would like to use Docker images for, so if you are doing something in the Docker/unikernel space, please get in touch, either here, in the [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues) or on our [Gitter chat](https://gitter.im/hioa-cs/IncludeOS)!
+We are *very* interested in finding out that kind of workflows users would like to use Docker images for, so if you are doing something in the Docker/unikernel space, please get in touch, either here, in the [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues) or on our [Slack chat](https://goo.gl/NXBVsc)!

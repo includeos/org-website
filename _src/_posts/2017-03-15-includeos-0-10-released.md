@@ -94,4 +94,4 @@ include($ENV{INCLUDEOS_PREFIX}/includeos/service.cmake)
 
 We wish to thank our budding community of users and contributors -- thank you *so much* for trying IncludeOS, posting issues and making pull requests! Full [release notes](https://github.com/hioa-cs/IncludeOS/releases/tag/v0.10.0) are available on GitHub.
 
-If you want to get involved, give IncludeOS 0.10 a try! If you need any help or would like to provide any feedback, we would love it if you come chat with us in our public [Gitter chat](https://gitter.im/hioa-cs/IncludeOS) or get in touch with us on [GitHub](https://github.com/hioa-cs/IncludeOS/).
+If you want to get involved, give IncludeOS 0.10 a try! If you need any help or would like to provide any feedback, we would love it if you come chat with us in our public [Slack chat](https://goo.gl/NXBVsc) or get in touch with us on [GitHub](https://github.com/hioa-cs/IncludeOS/).

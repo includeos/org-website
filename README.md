@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/core77/jekyll-foundation.svg)](https://travis-ci.org/core77/jekyll-foundation)
 [![devDependencies](https://david-dm.org/core77/jekyll-foundation/dev-status.svg)](https://david-dm.org/core77/jekyll-foundation#info=devDependencies)
-[![Join the chat at https://gitter.im/core77/jekyll-foundation](https://badges.gitter.im/core77/jekyll-foundation.svg)](https://gitter.im/core77/jekyll-foundation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat](https://img.shields.io/badge/chat-on%20Slack-brightgreen.svg)](https://goo.gl/NXBVsc)
 
 This is a Jekyll project with Zurb Foundation 6 based off of [this starter project]( https://github.com/core77/jekyll-foundation).
 
@@ -95,7 +95,7 @@ Now upload the to Google Cloud Storage:
 ```
 gsutil -m rsync -r \_dest/ gs://www.includeos.org/
 ```
--m is to make it run in paralell so it uploads faster. 
+-m is to make it run in paralell so it uploads faster.
 
 The long term goal is to make the deployment happen through make. At some point we should say:
 ```

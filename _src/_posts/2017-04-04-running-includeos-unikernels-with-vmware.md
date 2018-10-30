@@ -54,4 +54,4 @@ By default, the script just uses `tail -f` which interleaves output from the var
 
 ![vmware-4-instances]({{site-url}}/assets/img/posts/vmware.png)
 
-If you are using IncludeOS and VMWare, do not hesitate to get in touch, either here, in the [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues) or on our [Gitter chat](https://gitter.im/hioa-cs/IncludeOS)!
+If you are using IncludeOS and VMWare, do not hesitate to get in touch, either here, in the [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues) or on our [Slack chat](https://goo.gl/NXBVsc)!

@@ -205,4 +205,4 @@ If this went well for you and you want to use docker to run IncludeOS on Mac, Ub
 
 **_Perhaps we should try it on Docker on Windows as well? Let us know if you have tried it!_**
 
-We are always *very* interested in hearing about your IncludeOS use cases. Thus if you are experimenting with IncludeOS on a new platform or anything within the specs of unikernels and/or unikernels on dockers, get in touch with us at [Gitter chat](https://gitter.im/hioa-cs/IncludeOS) or let us know through [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues)
+We are always *very* interested in hearing about your IncludeOS use cases. Thus if you are experimenting with IncludeOS on a new platform or anything within the specs of unikernels and/or unikernels on dockers, get in touch with us at [Slack chat](https://goo.gl/NXBVsc) or let us know through [IncludeOS issue tracker](https://github.com/hioa-cs/IncludeOS/issues)

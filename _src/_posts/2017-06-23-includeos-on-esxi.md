@@ -29,4 +29,4 @@ This means that you can now compile your IncludeOS image and deploy it on VMware
 
 In May we demonstrated our load balancer platform for the [Oslo VMware User Group](http://www.vmnug.no). In attendance was VMware's chief technologist [Cormac Hogan](http://cormachogan.com). He summarised the presentation in a blog post [My first look at unikernels on VSphere](http://cormachogan.com/2017/06/20/first-look-unikernels-vsphere/).
 
-If you think this might be relevant to you, feel free to reach out to me on [twitter](https://www.twitter.com/perbu) or our [Gitter chat](https://gitter.im/hioa-cs/IncludeOS) or in any other way. I'm easy to find.
+If you think this might be relevant to you, feel free to reach out to me on [twitter](https://www.twitter.com/perbu) or our [Slack chat](https://goo.gl/NXBVsc) or in any other way. I'm easy to find.
