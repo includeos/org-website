@@ -76,7 +76,7 @@ So how can this be applied? How can this be useful?
 
 ## Virtual Networking Appliances
 
-We've successfully deployed IncludeOS as firewall- and load balancingers. The modular IP stack and flexible configuration language, [NaCl], allows for small, fast and secure virtual appliances that can help secure your virtualized network.
+We've successfully deployed IncludeOS as a firewall and load balancer. The modular IP stack and flexible configuration language, [NaCl], allows for small, fast and secure virtual appliances that can help secure your virtualized network.
 
 [Performance, compared to Linux, is excellent](/blog/2018/performance.html). Specifically, we performance being very well kept us as the number of firewall rules increase as the compiler does an excellent job at optimizing the ruleset.
 
